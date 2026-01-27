@@ -1,0 +1,23 @@
+<addon id="Regius"
+       name="Regius"
+       version="1.0.0"
+       provider-name="Enzo">
+
+    <extension point="xbmc.addon.repository">
+        <info compressed="false">
+            https://tuonome.github.io/repository.tuonome/
+        </info>
+        <checksum>
+            https://regius.github.io/regius/addons.xml.md5
+        </checksum>
+        <datadir zip="true">
+            https://regius.github.io/regius/
+        </datadir>
+    </extension>
+
+    <extension point="xbmc.addon.metadata">
+        <summary>Repository Kodi</summary>
+        <description>Repository personale per Kodi</description>
+        <platform>all</platform>
+    </extension>
+</addon>
